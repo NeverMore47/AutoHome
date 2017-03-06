@@ -1,0 +1,157 @@
+8
+
+dir
+18
+http://192.168.10.63/svn/heping/autohome1/WebRoot
+http://192.168.10.63/svn/heping
+
+
+
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+40178492-db05-dd4a-966b-588d3fabd2f7
+
+META-INF
+dir
+
+WEB-INF
+dir
+
+css
+dir
+
+customer
+dir
+
+footer.html
+file
+
+
+
+
+2017-01-10T01:12:40.767000Z
+9a2b71e02075d6f0ca52cb57142cdf01
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+header.html
+file
+
+
+
+
+2017-01-13T01:23:37.384000Z
+74b62ece80cc40eca0ff9c6da6ecb773
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+images
+dir
+
+index.html
+file
+
+
+
+
+2017-01-06T07:17:20.664000Z
+b9d622c3545b57013a54ced5980c0f5b
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+jquery-2.1.0.js
+file
+
+
+
+
+2016-12-30T07:19:29.492000Z
+3177091fb9705dd978689ba11bf0609a
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+js
+dir
+
+login.html
+file
+
+
+
+
+2017-01-10T01:09:56.130000Z
+801514adfd3a3327652dac73d4afacf0
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+modNavTop.html
+file
+
+
+
+
+2017-01-04T08:51:19.017000Z
+3eaaac2e7dd475a052fd9f036c206f0d
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+sell
+dir
+
+splitor.html
+file
+
+
+
+
+2017-01-04T08:51:19.018000Z
+b807c4848c82ad8279f14bb29a161f72
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+system
+dir
+
+total
+dir
+
+trees
+dir
+
+warehouse
+dir
+
+welcome.html
+file
+
+
+
+
+2017-01-10T08:02:44.641000Z
+de43a5ed602cc7cbadc2533d57227bf8
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+

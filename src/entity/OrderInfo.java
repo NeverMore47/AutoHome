@@ -1,0 +1,78 @@
+package entity;
+
+public class OrderInfo {
+
+	private Integer oID;
+	private Integer clID;
+	private Integer cID;
+	private String cName;
+	private Double oFinalPri;
+	private String cModel;
+	private String oFlow;
+	private String oDate;
+
+	public Integer getoID() {
+		return oID;
+	}
+
+	public void setoID(Integer oID) {
+		this.oID = oID;
+	}
+
+	public Integer getClID() {
+		return clID;
+	}
+
+	public void setClID(Integer clID) {
+		this.clID = clID;
+	}
+
+	public Integer getcID() {
+		return cID;
+	}
+
+	public void setcID(Integer cID) {
+		this.cID = cID;
+	}
+
+	public String getcName() {
+		return cName;
+	}
+
+	public void setcName(String cName) {
+		this.cName = cName;
+	}
+
+	public Double getoFinalPri() {
+		return oFinalPri;
+	}
+
+	public void setoFinalPri(Double oFinalPri) {
+		this.oFinalPri = oFinalPri;
+	}
+
+	public String getcModel() {
+		return cModel;
+	}
+
+	public void setcModel(String cModel) {
+		this.cModel = cModel;
+	}
+
+	public String getoFlow() {
+		return oFlow;
+	}
+
+	public void setoFlow(String oFlow) {
+		this.oFlow = oFlow;
+	}
+
+	public String getoDate() {
+		return oDate;
+	}
+
+	public void setoDate(String oDate) {
+		this.oDate = oDate;
+	}
+
+}

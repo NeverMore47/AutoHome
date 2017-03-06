@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mvc-config>
+	<datasource>
+		<driver>com.microsoft.jdbc.sqlserver.SQLServerDriver</driver>
+		<url>
+			jdbc:microsoft:sqlserver://localhost:1433;DatabaseName=java222
+		</url>
+		<username>sa</username>
+		<password>123</password>
+		<maxactive>5</maxactive>
+	</datasource>
+
+	<action-mapping>
+		<!-- 用户登陆 -->
+		<action path="login"
+			className="com.softeem.car.login.action.LoginAction"
+			redirect="false" />
+			
+		<!-- 仓库管理 仓库信息 -->
+		<action path="warehouseList"
+			className="com.softeem.car.warehouse.action.WarehouseListAction"
+			redirect="false" />
+		<action path="warehousePreAdd"
+			className="com.softeem.car.warehouse.action.WarehousePreAddAction"
+			redirect="false" />
+		<action path="warehouseAdd"
+			className="com.softeem.car.warehouse.action.WarehouseAddAction"
+			redirect="false" />
+		<action path="warehousePreEdit"
+			className="com.softeem.car.warehouse.action.WarehousePreEditAction"
+			redirect="false" />
+		<action path="warehouseEdit"
+			className="com.softeem.car.warehouse.action.WarehouseEditAction"
+			redirect="false" />
+	</action-mapping>
+
+
+</mvc-config>

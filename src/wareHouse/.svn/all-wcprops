@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse
+END
+ListWHService.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse/ListWHService.java
+END
+AddCarServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse/AddCarServlet.java
+END
+AddWHServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse/AddWHServlet.java
+END
+AddCarService.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse/AddCarService.java
+END
+TableServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse/TableServlet.java
+END
+ListWareHouse.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse/ListWareHouse.java
+END
+StoceServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse/StoceServlet.java
+END
+UpdateWHServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse/UpdateWHServlet.java
+END
+StoceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse/StoceService.java
+END
+TableService.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse/TableService.java
+END
+DelWHServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/heping/!svn/ver/18/autohome1/src/wareHouse/DelWHServlet.java
+END

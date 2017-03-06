@@ -1,0 +1,52 @@
+8
+
+dir
+18
+http://192.168.10.63/svn/heping/autohome1/src/user
+http://192.168.10.63/svn/heping
+
+
+
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+40178492-db05-dd4a-966b-588d3fabd2f7
+
+LoginService.java
+file
+
+
+
+
+2017-01-06T06:47:15.270000Z
+74201540fc52ba5e541c06571f2a6bba
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+LoginServlet.java
+file
+
+
+
+
+2017-01-06T06:59:02.209000Z
+fc799fb1c9ac7cd9e781fcd1f509707d
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+

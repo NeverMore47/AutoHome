@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/heping/!svn/ver/18/autohome1/src/system
+END
+UserManService.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/heping/!svn/ver/18/autohome1/src/system/UserManService.java
+END
+PermissionServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/heping/!svn/ver/18/autohome1/src/system/PermissionServlet.java
+END
+ListRoleServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/heping/!svn/ver/18/autohome1/src/system/ListRoleServlet.java
+END
+AddPerServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/heping/!svn/ver/18/autohome1/src/system/AddPerServlet.java
+END
+ListPerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/heping/!svn/ver/18/autohome1/src/system/ListPerService.java
+END
+AddUserServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/heping/!svn/ver/18/autohome1/src/system/AddUserServlet.java
+END
+ShowUserServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/heping/!svn/ver/18/autohome1/src/system/ShowUserServlet.java
+END
+UserManServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/heping/!svn/ver/18/autohome1/src/system/UserManServlet.java
+END
+UpdateRoleServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/heping/!svn/ver/18/autohome1/src/system/UpdateRoleServlet.java
+END
+UpdatePerServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/heping/!svn/ver/18/autohome1/src/system/UpdatePerServlet.java
+END
+ListPerServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/heping/!svn/ver/18/autohome1/src/system/ListPerServlet.java
+END
+UpdateUserServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/heping/!svn/ver/18/autohome1/src/system/UpdateUserServlet.java
+END
+ListRoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/heping/!svn/ver/18/autohome1/src/system/ListRoleService.java
+END
+UserDelServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/heping/!svn/ver/18/autohome1/src/system/UserDelServlet.java
+END

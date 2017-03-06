@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/heping/!svn/ver/18/autohome1/src/clients
+END
+AddCustomerServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/heping/!svn/ver/18/autohome1/src/clients/AddCustomerServlet.java
+END
+UptateCustomerServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/heping/!svn/ver/19/autohome1/src/clients/UptateCustomerServlet.java
+END
+DeleteCustomerServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/heping/!svn/ver/18/autohome1/src/clients/DeleteCustomerServlet.java
+END
+CustomerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/heping/!svn/ver/19/autohome1/src/clients/CustomerService.java
+END
+CustomerServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/heping/!svn/ver/19/autohome1/src/clients/CustomerServlet.java
+END

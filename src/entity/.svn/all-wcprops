@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/heping/!svn/ver/18/autohome1/src/entity
+END
+OrderInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/heping/!svn/ver/20/autohome1/src/entity/OrderInfo.java
+END
+Order.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/heping/!svn/ver/18/autohome1/src/entity/Order.java
+END
+Permission.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/heping/!svn/ver/18/autohome1/src/entity/Permission.java
+END
+WareHouse.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/heping/!svn/ver/18/autohome1/src/entity/WareHouse.java
+END
+ClientJSON.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/heping/!svn/ver/18/autohome1/src/entity/ClientJSON.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/heping/!svn/ver/18/autohome1/src/entity/Role.java
+END
+RolesInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/heping/!svn/ver/18/autohome1/src/entity/RolesInfo.java
+END
+Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/heping/!svn/ver/18/autohome1/src/entity/Client.java
+END
+ReturnVisit.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/heping/!svn/ver/18/autohome1/src/entity/ReturnVisit.java
+END
+Firm.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/heping/!svn/ver/18/autohome1/src/entity/Firm.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/heping/!svn/ver/18/autohome1/src/entity/User.java
+END
+ReturnVisitClients.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/heping/!svn/ver/18/autohome1/src/entity/ReturnVisitClients.java
+END
+UserInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/heping/!svn/ver/18/autohome1/src/entity/UserInfo.java
+END
+CarInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/heping/!svn/ver/18/autohome1/src/entity/CarInfo.java
+END

@@ -1,0 +1,46 @@
+<html>
+<head>
+<link href="css/public.css" rel="stylesheet" type="text/css" />
+<script language="javascript">
+    var showFlag=1;
+
+    //ÏÔÊ¾/Òþ²Ø¶¥²¿¼°nav.
+    function showHideHdNav()
+    {
+      var topFrameset=top.document.getElementById("top");
+      if(showFlag==1)//µ±Ç°ÏÔÊ¾,Òþ²Ø
+      {
+        top.splitor.splitor.showHide(0);
+        topFrameset.rows="0,*,0";
+        showFlag=0;        
+      }
+      else
+      {
+        top.splitor.splitor.showHide(1);
+        topFrameset.rows="101,*,23";
+        showFlag=1;        
+      }      
+    }
+  </script>
+<title></title>
+</head>
+<body>
+<div class="topBar">
+  <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" >
+    <tr>
+      <td><span id="otherTools">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="100%"></td>
+            <td width="20"><img class="pointer" src="images/iCollapseAll.gif" width="16" height="16" hspace="5" align="middle" alt="ÕÛµþ" title="ÕÛµþ" /></td>
+            <td width="20"><img class="pointer" src="images/iRefresh.gif" width="16" height="16" hspace="5" align="middle" alt="Ë¢ÐÂ" title="Ë¢ÐÂ" />
+            <td>
+          </tr>
+        </table>
+        </span> </td>
+      <td width="20"><img class="pointer" src="images/iShowHide.gif" width="16" height="16" hspace="5" align="middle" alt="Òþ²Ø/ÏÔÊ¾" title="Òþ²Ø/ÏÔÊ¾" onClick="javascript:showHideHdNav();" /></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

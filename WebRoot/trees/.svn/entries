@@ -1,0 +1,53 @@
+8
+
+dir
+18
+http://192.168.10.63/svn/heping/autohome1/WebRoot/trees
+http://192.168.10.63/svn/heping
+
+
+
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+40178492-db05-dd4a-966b-588d3fabd2f7
+
+mainmenu.html
+file
+
+
+
+
+2017-01-12T05:55:14.192000Z
+06befa54eb2fd67d74eeda7d3a229919
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+
+vssver.scc
+file
+
+
+
+
+2017-01-04T08:51:19.144000Z
+cc430f4608d6dbe221cfa89eed436aef
+2017-01-13T02:29:12.435623Z
+18
+wanjiahuan
+has-props
+

@@ -1,0 +1,18 @@
+package sell;
+
+import java.util.List;
+
+import dao.DBOperational;
+import entity.OrderInfo;
+
+public class OrderListService {
+
+	private DBOperational db = new DBOperational();
+	
+	//查询所有订单信息
+	public List selectALLOrder() {
+		String sql = "SELECT oID,oFinalPri,o.cID,oFlow,oDate,o.clID,c.cName,c.cModel FROM orders o,carinfo c WHERE o.cID = c.cID";
+		List list = db.selectAll(sql, OrderInfo.class);
+		return list;
+	}
+}

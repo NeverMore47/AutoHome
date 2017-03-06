@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/heping/!svn/ver/20/autohome1/src/sell
+END
+AddOrderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/heping/!svn/ver/20/autohome1/src/sell/AddOrderService.java
+END
+AddOrderServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/heping/!svn/ver/20/autohome1/src/sell/AddOrderServlet.java
+END
+OrderListServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/heping/!svn/ver/20/autohome1/src/sell/OrderListServlet.java
+END
+OrderListService.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/heping/!svn/ver/20/autohome1/src/sell/OrderListService.java
+END

@@ -1,0 +1,140 @@
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<link type="text/css" rel="stylesheet" href="../css/public.css">
+<script type="text/javascript" src="jquery-2.1.0.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+</script>
+<style type="text/css">
+<!--
+.style2 {
+	font-size: 12px
+}
+-->
+</style>
+</head>
+<body>
+	<table border="0" width="100%" cellspacing="0">
+		<tr>
+			<td background="../images/topBarBg.gif" height="23">仓库管理</td>
+		</tr>
+	</table>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0"
+		bordercolor="#6490C2">
+		<tr>
+			<td width="25" height="24"
+				background="../images/tab/firstLeftSel.gif">&nbsp;</td>
+			<td width="100" background="../images/tab/middleSel.gif">
+				<div align="center">增加新车</div>
+			</td>
+			<td width="50" background="../images/tab/lastRightSel.gif">&nbsp;</td>
+			<td background="../images/tab/bg.gif">&nbsp;</td>
+		</tr>
+	</table>
+	<form name="listform" action="/AutoHome/servlet/AddCarServlet"
+		method="post" onSubmit="return subUser() ">
+		<table class="maintable" width="97%" border="0" cellspacing="0">
+
+			<tr>
+				<td width="14%"><div align="center">汽车编号</div></td>
+				<td width="23%"><input type="text" name="cID" id="names" onblur="showTip()">* 
+					<script type="text/javascript">
+					$("#names").blur(function(){
+							var cID = $("#names").val();
+							$.ajax({
+								url : "/AutoHome/servlet/AddCarServlet",
+								data : {
+									cID : cID
+								},
+								dataType : "json",
+								success : function(result) {
+									if (!result) {
+										$("#test_names").css("display",
+												"block");
+									} else {
+										$("#test_names").css("display",
+												"none");
+									}
+								}
+							});
+						}); 
+					</script>
+					<div id="test_names" style="display:none ">
+						<font color="red">该编号已存在</font>
+					</div></td>
+				<td width="15%"><div align="center">汽车名称</div></td>
+				<td width="48%"><input type="text" name="cName" id="otherLink"></td>
+			</tr>
+			<tr>
+				<td><div align="center">汽车型号</div></td>
+				<td><input type="text" id="linkPhone" name="cModel"></td>
+				<td><div align="center">汽车颜色</div></td>
+				<td><input type="text" id="age" name="cColor"></td>
+			</tr>
+			<tr>
+				<td><div align="center">发动机号</div></td>
+				<td><input type="text" name="cEngine" id="cEngine"></td>
+				<td><div align="center">生产地</div></td>
+				<td><input type="text" name="cPro" id="school"></td>
+			</tr>
+			<tr>
+				<td><div align="center">车辆流向</div></td>
+				<td><input type="text" name="cFlow" id="school2"></td>
+				<td><div align="center">所属仓库</div></td>
+				<td><label> <select name="wID">
+							<option>--请选择--</option>
+							<c:forEach items="${whInfo}" var="wh">
+								<option value="${wh.wID}">${wh.wName}</option>
+							</c:forEach>
+					</select>
+				</label></td>
+			</tr>
+			<tr>
+				<td><div align="center">生产日期</div></td>
+				<td><input type="date" name="cProDate" id="mailingTime2" /></td>
+				<td><div align="center">数量</div></td>
+				<td><input type="text" name="cQuantity" id="mailingTime" onblur="showTip()"/><span id="tip" style="display:none"><font color="red">数量只能为整数</font></span></td>
+			</tr>
+			<script type="text/javascript">
+					function showTip() {
+						if(isNaN($("#mailingTime").val())) {
+							$("#tip").css("display","block");
+						}else {
+							$("#tip").css("display","none");
+						}
+					}
+				</script>
+			<tr align="center" bgcolor="#99CCFF">
+				<td height="26" colspan="4" class="titleLine"><div align="left">
+						汽车描述：<span class="style2"></span>
+					</div></td>
+			</tr>
+			<tr>
+				<td height="121" colspan="4" align="center"><textarea
+						name="cDesc" id="texts" cols="140" rows="5"></textarea></td>
+			</tr>
+		</table>
+		<option></option>
+		<option></option>
+		<table align="left" width="100%">
+			<tr>
+				<td height="107">
+					<div align="center">
+						<input type="submit" name="Submit" value="提交"> <input
+							type="reset" name="Submit" value="重置">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td height="30" background="../images/tab/bg.gif"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
